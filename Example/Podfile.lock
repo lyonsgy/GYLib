@@ -1,0 +1,49 @@
+PODS:
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - GYLib (0.1.0)
+  - Kiwi (3.0.0)
+
+DEPENDENCIES:
+  - BlocksKit (~> 2.2.5)
+  - FBSnapshotTestCase
+  - GYLib (from `../`)
+  - Kiwi
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BlocksKit
+    - FBSnapshotTestCase
+    - Kiwi
+
+EXTERNAL SOURCES:
+  GYLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  GYLib: 066a4c43f40effdee67274aa492c75b6a5ba2333
+  Kiwi: fbeafef0f00e4d8f7dcb3420a4930afe70af77f7
+
+PODFILE CHECKSUM: 0aee64652c50c6c1203f61a9bf8da8d129585958
+
+COCOAPODS: 1.5.3

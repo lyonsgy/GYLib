@@ -1,0 +1,13 @@
+use_frameworks!
+
+target 'GYLib_Example' do
+  pod 'GYLib', :path => '../'
+  pod 'BlocksKit', '~> 2.2.5'
+
+  target 'GYLib_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+    pod 'FBSnapshotTestCase'
+  end
+end

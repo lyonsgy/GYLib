@@ -1,0 +1,6 @@
+framework module GYLib {
+  umbrella header "GYLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
